@@ -50,12 +50,42 @@ Esta quedará en la carpeta target/site/apidocs:
    ![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/27c95167-cd68-4d7d-a6f5-3f374f89b2f2)
 
 
+## AWS  
 
-   
+Para probarlo en AWS debemos usar el servicio EC2 que hemos trabajado en laboratorios anteriores, Lanzamos una instancia y en ella debemos tener instalado git, mvn y java. Una vez instalamos lo anterior clonamos este repositorio.  
+Debemos editar los archivos de las maquinas 1 y 2:  
+![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/fef1a562-176d-421e-a3e1-5c0c18f3ace6)  
+![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/eabc943b-d151-4575-b85a-7133cfd452f3)  
+
+Ejecutamos en la raiz:  
+    ```
+    mvn clean package install
+    ```  
+Luego en una consola:  
+
+  ```
+  java -cp "target/classes:target/dependency/*" org.example.Maquinas.Maquina1
+  ```
+Y en otra consola:  
+
+  ```
+  java -cp "target/classes:target/dependency/*" org.example.Maquinas.Maquina2
+  ```
+Como resultado tendremos:  
+![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/1f920db5-f8dd-4b6e-81cc-d3943091f0ec)  
+![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/868a23ef-949e-4681-b6fd-88e8873e89d0)  
+
+Y al entrar en algun browser con https://ec2-54-91-41-98.compute-1.amazonaws.com:5000/local y https://ec2-54-91-41-98.compute-1.amazonaws.com:5001/local obtenemos:  
+
+![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/db06910b-5c64-4f0a-a0a1-e6cbd30c692c)  
+
+Video de ejecución:  
 
 
+## Arquitectura  
 
+![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/e97292dc-560c-4fe3-a33a-d23ec0daa83e)  
 
-
+En base a la imágen anterior se uso un browser que puede hacer la consulta de recursos usando una instancia del servicio EC2, la instancia cuenta con los recursos suficientes para poder hacer una conexión segura entre máquinas.
 
    
