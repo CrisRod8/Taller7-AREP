@@ -82,6 +82,7 @@ Y al entrar en algun browser con https://ec2-54-91-41-98.compute-1.amazonaws.com
 
 Video de ejecución:  
 
+https://pruebacorreoescuelaingeduco.sharepoint.com/sites/recof/_layouts/15/stream.aspx?id=%2Fsites%2Frecof%2FShared%20Documents%2FGeneral%2FRecordings%2FTaller7-20231016_125352-Grabación%20de%20la%20reunión%2Emp4  
 
 ## Arquitectura  
 
