@@ -58,9 +58,10 @@ Debemos editar los archivos de las maquinas 1 y 2:
 ![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/eabc943b-d151-4575-b85a-7133cfd452f3)  
 
 Ejecutamos en la raiz:  
-    ```
-    mvn clean package install
-    ```  
+
+  ```
+  mvn clean package install
+  ```  
 Luego en una consola:  
 
   ```
