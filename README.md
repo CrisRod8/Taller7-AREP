@@ -31,15 +31,19 @@ Esta quedará en la carpeta target/site/apidocs:
     ```
     mvn clean package install
     ```
-2. Hacemos lo mismo con la maquina1 y maquina2:
-3. Probamos en algun browser, en este caso Google Chrome:
+2. Corremos la maquina1 y maquina2:
+   ![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/42108bf1-88fa-4845-8210-6a35c53f8d68)
+   ![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/d11c089e-0251-487a-90ea-addd1f34f05e)
+
+
+4. Probamos en algun browser, en este caso Google Chrome:
 
    https://localhost:5000/local y https://localhost:5001/local obtenemos:
 
    ![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/485e9957-b461-402d-bb3f-4e4dae7d614f)   
    
 
-4. Conexion entre ellos:
+5. Conexion entre ellos:
 
    https://localhost:5000/remote y https://localhost:5001/remote obtenemos:
 
