@@ -22,6 +22,9 @@ Para generar la documentación se debe ejecutar:
   mvn javadoc:javadoc
   ```
 
+Esta quedará en la carpeta target/site/apidocs:  
+![image](https://github.com/CrisRod8/Taller7-AREP/assets/111186898/979fcb56-263e-4123-9738-e2fcbfb95fd6)  
+
 ## Desarrollo  
 
 1. Dentro de la carpeta instalada, abrimos el cmd y ejecutamos el siguiente comando:
